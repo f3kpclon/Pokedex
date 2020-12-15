@@ -7,4 +7,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="text_grey">#4c5957</color>
+    <color name="hp_background">#b8af5b</color>
+    <color name="attack_background">#8f8101</color>
+    <color name="defense_background">#afcdf3</color>
+    <color name="speed_background">#f3db03</color>
+
+
 </resources>
