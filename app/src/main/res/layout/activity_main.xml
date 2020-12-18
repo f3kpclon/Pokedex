@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <fragment
-        android:name="com.testsandroid.pokedex.fragments.pokemonDetails.DetailItemPokemonFragment"
+    <data>
+
+    </data>
+
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="350dp"
-        android:id="@+id/detalle_pokemon_fragment"
-        />
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
 
-    <fragment
-        android:name="com.testsandroid.pokedex.fragments.pokemonList.ItemListPokemonFragment"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/detalle_pokemon_fragment"
-        android:layout_alignParentBottom="true"
-        android:id="@+id/lista_pokemon_fragment"/>
+        <fragment
+            android:name="com.testsandroid.pokedex.fragments.pokemonDetails.DetailItemPokemonFragment"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:id="@+id/detalle_pokemon_fragment" />
 
-</RelativeLayout>
+        <fragment
+            android:name="com.testsandroid.pokedex.fragments.pokemonList.ItemListPokemonFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detalle_pokemon_fragment"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/lista_pokemon_fragment" />
+
+    </RelativeLayout>
+</layout>

@@ -2,7 +2,7 @@ package com.testsandroid
 
 import com.testsandroid.pokedex.PokeTypes
 
-class Pokemon(
+data class Pokemon(
     val id: Long,
     val name:String,
     val hp: Int,
